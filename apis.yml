@@ -1,9 +1,28 @@
 aid: inyad
 name: Inyad
-description: 'Inyad is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Inyad is an all-in-one business management and payments platform for
+  small and medium businesses across Morocco, the Middle East, and Africa. Its mobile-first
+  apps let merchants sell, get paid, and run their operations from one place — including
+  a smart point-of-sale (POS Mahaal), automatic invoicing, an online store builder,
+  employee attendance and payroll (Staff), a digital credit book (Konnash), in-store
+  card terminals and terminal-free digital collection (Collect), professional business
+  accounts, and money-transfer services. The company reports 250,000+ professionals
+  on the platform and is backed by investors including Partech, Al Mada Ventures, CDG
+  Invest, and FJ Labs. Inyad exposes an internal application backend (api.inyad.com)
+  but publishes no public developer API, documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/inyad/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/SRkWhHWfj2ffIcca9HpNTpDrjzI.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Financial Services
+- Payments
+- Point of Sale
+- Invoicing
+- Fintech
+- SMB
+- Africa
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.inyad.com/
+- type: Blog
+  url: https://inyad.com/blog
+- type: Pricing
+  url: https://inyad.com/pricing
+- type: SignUp
+  url: https://web.inyad.com/
+- type: DomainSecurity
+  url: security/inyad-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
