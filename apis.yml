@@ -11,6 +11,17 @@ description: 'Inyad is an all-in-one business management and payments platform f
   Invest, and FJ Labs. Inyad exposes an internal application backend (api.inyad.com)
   but publishes no public developer API, documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/inyad/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
