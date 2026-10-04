@@ -45,12 +45,12 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Point-of-Sale
 - Invoicing
 - Fintech
-- SMB
+- Small Business
 - Africa
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Fintech
 - SMB
 - Africa
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
